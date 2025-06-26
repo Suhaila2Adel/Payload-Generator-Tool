@@ -29,5 +29,7 @@ A modular Python-based payload generator for offensive security testing — supp
 
 ```bash
 python3 main.py --xss
+```bash
 python3 main.py --sqli --obfuscate --clipboard
+```bash
 python3 main.py --cmd –encode base64
