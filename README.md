@@ -3,9 +3,9 @@ A modular Python-based payload generator for offensive security testing — supp
 ## Features
 
 - **Payload Types**:
-  - XSS (Reflected, DOM-based)
-  - SQL Injection (Error-based, Union, Blind)
-  - Command Injection (Linux & Windows variants)
+  - XSS 
+  - SQL Injection 
+  - Command Injection
   
 - **Obfuscation Techniques**:
   - XSS: Unicode transformation
