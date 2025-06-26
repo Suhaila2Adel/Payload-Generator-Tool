@@ -1,22 +1,6 @@
 # Payload-Generator-Tool
 A modular Python-based payload generator for offensive security testing — supporting XSS, SQL Injection, and Command Injection payloads with encoding, obfuscation, and output customization.
 
-## Project Structure
-payload-generator/
-├── main.py # Entry point of the tool
-├── cli.py # Argument parser logic
-├── payload_encoder.py # Encoding functions (base64, URL, hex, unicode)
-├── modules/ # Payload generation modules
-│ ├── xss.py # XSS payloads + obfuscation
-│ ├── sqli.py # SQLi payloads + obfuscation
-│ └── cmd_injection.py # Command injection payloads + obfuscation
-├── payloads/ # Payload list files
-│ ├── xss_payload.txt
-│ ├── sql_payloads.txt
-│ └── cmd_payloads.txt
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
 ## Features
 
 - **Payload Types**:
