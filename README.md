@@ -25,10 +25,9 @@ A modular Python-based payload generator for offensive security testing — supp
 
 ---
 
-## Installation
+## Usage
 
 ```bash
-git clone https://github.com/your-username/payload-generator.git
 python3 main.py --xss
 python3 main.py --sqli --obfuscate --clipboard
 python3 main.py --cmd –encode base64
